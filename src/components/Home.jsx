@@ -29,10 +29,10 @@ const Home = () => {
     },
     {
       id: 2,
-      title: "Join the Squad",
-      subtitle: "Our community of 10K+ subscribers is waiting for you. Comment, share, and be part of the family.",
-      ctaText: "Community",
-      ctaLink: "/community",
+      title: "Meet the Team",
+      subtitle: "The creative minds, actors, and producers working hard to bring a smile to your face.",
+      ctaText: "Our Team",
+      ctaLink: "/team",
       ctaIcon: <Users className="w-5 h-5" />,
       image: Thum3
     },

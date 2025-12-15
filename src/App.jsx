@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Videos from "./components/Videos";
 import About from "./components/About";
-import Community from "./components/Community";
+import Team from "./components/Team";
 import Contact from "./components/Contact";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/about" element={<About />} />
-          <Route path="/community" element={<Community />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
